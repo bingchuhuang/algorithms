@@ -1,0 +1,401 @@
+q1: Two Sum
+Given an array of integers, find two numbers such that they add up to a specific target number.
+The function twoSum should return indices of the two numbers such that they add up to
+the target, where index1 must be less than index2. Please note that your returned answers
+(both index1 and index2) are not zero-based.
+You may assume that each input would have exactly one solution.
+
+q2: Add Two Numbers 
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+
+q3: Longest substring without repeating
+Given a string, find the length of the longest substring without repeating characters.
+Examples:
+Given "abcabcbb", the answer is "abc", which the length is 3.
+Given "bbbbb", the answer is "b", with the length of 1.
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+Subscribe to see which companies asked this question.
+
+q4: Median
+There are two sorted arrays nums1 and nums2 of size m and n respectively.
+
+Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+
+Example 1:
+nums1 = [1, 3]
+nums2 = [2]
+
+The median is 2.0
+Example 2:
+nums1 = [1, 2]
+nums2 = [3, 4]
+
+The median is (2 + 3)/2 = 2.5
+
+q5: Palindrome
+Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+
+Example:
+
+Input: "babad"
+
+Output: "bab"
+
+Note: "aba" is also a valid answer.
+
+q6: Zigzag
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows:
+
+string convert(string text, int nRows);
+convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+
+q7: Reverse Integer
+
+Reverse digits of an integer.
+
+Example1: x = 123, return 321
+Example2: x = -123, return -321
+
+q8: atoi
+
+q9: Palindrome Number  
+
+q10: Regular Expression Matching  
+implement '.' and '*' matching
+
+q11: Container With Most Water
+Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+
+Note: You may not slant the container and n is at least 2.
+
+q12: Integer to Roman
+Given an integer, convert it to a roman numeral.
+Input is guaranteed to be within the range from 1 to 3999.
+
+q13: Roman to Integer
+
+q14: Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.
+
+q15: 3Sum
+Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+Note: The solution set must not contain duplicate triplets.
+
+For example, given array S = [-1, 0, 1, 2, -1, -4],
+
+A solution set is:
+[
+  [-1, 0, 1],
+  [-1, -1, 2]
+]
+
+
+q16: 3SumCloset
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.
+
+For example, given array S = {-1 2 1 -4}, and target = 1.
+The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+q17:
+Given a digit string, return all possible letter combinations that the number could represent.
+
+q18: 4Sum
+Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+Note: The solution set must not contain duplicate quadruplets.
+
+q19: Remove Nth Node From End of List
+
+Given a linked list, remove the nth node from the end of list and return its head.
+For example,
+Given linked list: 1->2->3->4->5, and n = 2.
+After removing the second node from the end, the linked list becomes 1->2->3->5.
+Note:
+Given n will always be valid.
+Try to do this in one pass.
+
+q20: Valid parentheses
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+q21: Merge two sorted list
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+
+q22: Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+q23: Merge k Sorted Lists
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+
+
+
+q24: Swap nodes in pairs
+Given a linked list, swap every two adjacent nodes and return its head.
+For example,
+Given 1->2->3->4, you should return the list as 2->1->4->3.
+Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
+
+q25: Reverse Nodes in k-Group
+Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
+k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.
+You may not alter the values in the nodes, only nodes itself may be changed.
+Only constant memory is allowed.
+For example,
+Given this linked list: 1->2->3->4->5
+For k = 2, you should return: 2->1->4->3->5
+For k = 3, you should return: 3->2->1->4->5
+
+q26: Remove Duplicates from Sorted Array
+Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+Do not allocate extra space for another array, you must do this in place with constant memory.
+For example,
+Given input array nums = [1,1,2],
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.
+
+q27: Remove element
+Given an array and a value, remove all instances of that value in place and return the new length.
+Do not allocate extra space for another array, you must do this in place with constant memory.
+The order of elements can be changed. It doesn't matter what you leave beyond the new length.
+Example:
+Given input array nums = [3,2,2,3], val = 3
+Your function should return length = 2, with the first two elements of nums being 2.
+
+q28: Implement strStr().
+Returns the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+q29: Divide Two Integers
+Divide two integers without using multiplication, division and mod operator.
+If it is overflow, return MAX_INT.
+
+q30: Substring with Concatenation of All Words
+You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.
+
+For example, given:
+s: "barfoothefoobarman"
+words: ["foo", "bar"]
+
+You should return the indices: [0,9].
+(order does not matter).
+
+q31: Next Permutation
+Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
+If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
+The replacement must be in-place, do not allocate extra memory.
+Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+1,2,3 → 1,3,2
+3,2,1 → 1,2,3
+1,1,5 → 1,5,1
+
+q32: Longest Valid Parentheses
+Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+For "(()", the longest valid parentheses substring is "()", which has length = 2.
+Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
+
+q33: Search in Rotated Sorted Array
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).
+You are given a target value to search. If found in the array return its index, otherwise return -1.
+You may assume no duplicate exists in the array.
+
+q34: Search for a Range
+Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
+Your algorithm's runtime complexity must be in the order of O(log n).
+If the target is not found in the array, return [-1, -1].
+For example,
+Given [5, 7, 7, 8, 8, 10] and target value 8,
+return [3, 4].
+
+q35: Search Insert Position
+Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You may assume no duplicates in the array.
+Here are few examples.
+[1,3,5,6], 5 → 2
+[1,3,5,6], 2 → 1
+[1,3,5,6], 7 → 4
+[1,3,5,6], 0 → 0
+
+q36: Valid Soduku
+
+q37: Solve Soduku
+
+q38: Count and Say
+The count-and-say sequence is the sequence of integers beginning as follows:
+1, 11, 21, 1211, 111221, ...
+
+1 is read off as "one 1" or 11.
+11 is read off as "two 1s" or 21.
+21 is read off as "one 2, then one 1" or 1211.
+Given an integer n, generate the nth sequence.
+
+q39: Combination Sum
+Given a set of candidate numbers (C) (without duplicates) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+
+The same repeated number may be chosen from C unlimited number of times.
+
+Note:
+All numbers (including target) will be positive integers.
+The solution set must not contain duplicate combinations.
+For example, given candidate set [2, 3, 6, 7] and target 7, 
+
+q40: Combination Sum II
+Given a collection of candidate numbers (C) and a target number (T), find all unique combinations in C where the candidate numbers sums to T.
+Each number in C may only be used once in the combination.
+Note:
+All numbers (including target) will be positive integers.
+The solution set must not contain duplicate combinations.
+For example, given candidate set [10, 1, 2, 7, 6, 1, 5] and target 8, 
+
+q41: First Missing Positive
+Given an unsorted integer array, find the first missing positive integer.
+
+For example,
+Given [1,2,0] return 3,
+and [3,4,-1,1] return 2.
+
+Your algorithm should run in O(n) time and uses constant space.
+
+q42: Trapping Rain Water
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
+For example, 
+Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+
+q43: Multiply strings
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2.
+
+Note:
+
+The length of both num1 and num2 is < 110.
+Both num1 and num2 contains only digits 0-9.
+Both num1 and num2 does not contain any leading zero.
+You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+q44: Wildcard Matching
+Implement wildcard pattern matching with support for '?' and '*'.
+
+'?' Matches any single character.
+'*' Matches any sequence of characters (including the empty sequence).
+
+The matching should cover the entire input string (not partial).
+
+The function prototype should be:
+bool isMatch(const char *s, const char *p)
+
+Some examples:
+isMatch("aa","a") → false
+isMatch("aa","aa") → true
+isMatch("aaa","aa") → false
+isMatch("aa", "*") → true
+isMatch("aa", "a*") → true
+isMatch("ab", "?*") → true
+isMatch("aab", "c*a*b") → false
+
+q45: Jump Game II
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Your goal is to reach the last index in the minimum number of jumps.
+For example:
+Given array A = [2,3,1,1,4]
+The minimum number of jumps to reach the last index is 2. (Jump 1 step from index 0 to 1, then 3 steps to the last index.)
+
+q46: Permutations
+Given a collection of distinct numbers, return all possible permutations.
+For example,
+[1,2,3] have the following permutations:
+[1,2,3],
+[1,3,2],
+[2,1,3],
+[2,3,1],
+[3,1,2],
+[3,2,1]
+
+q47: Permutations II
+Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+For example,
+[1,1,2] have the following unique permutations:
+[
+[1,1,2],
+[1,2,1],
+[2,1,1]
+]
+
+q48: Rotate Image
+You are given an n x n 2D matrix representing an image.
+Rotate the image by 90 degrees (clockwise).
+Follow up:
+Could you do this in-place?
+
+q49: Group Anagrams
+Given an array of strings, group anagrams together.
+For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"], 
+Return:
+[
+  ["ate", "eat","tea"],
+  ["nat","tan"],
+  ["bat"]
+]
+Note: All inputs will be in lower-case.
+
+q50: Pow(x, n)
+
+q51: N-Queens
+
+q52: N-Queens II
+
+q53: Maximum Subarray
+Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
+
+For example, given the array [-2,1,-3,4,-1,2,1,-5,4],
+the contiguous subarray [4,-1,2,1] has the largest sum = 6.
+
+q54: Spiral Matrix
+Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+For example,
+Given the following matrix:
+[
+ [ 1, 2, 3 ],
+ [ 4, 5, 6 ],
+ [ 7, 8, 9 ]
+]
+You should return [1,2,3,6,9,8,7,4,5].
+
+q55: Jump Game
+Given an array of non-negative integers, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Determine if you are able to reach the last index.
+For example:
+A = [2,3,1,1,4], return true.
+A = [3,2,1,0,4], return false.
+
+q56: Merge Intervals
+Given a collection of intervals, merge all overlapping intervals.
+
+For example,
+Given [1,3],[2,6],[8,10],[15,18],
+return [1,6],[8,10],[15,18].
+
+q57: Insert Interval
+Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+
+You may assume that the intervals were initially sorted according to their start times.
+
+Example 1:
+Given intervals [1,3],[6,9], insert and merge [2,5] in as [1,5],[6,9].
+
+Example 2:
+Given [1,2],[3,5],[6,7],[8,10],[12,16], insert and merge [4,9] in as [1,2],[3,10],[12,16].
+
+This is because the new interval [4,9] overlaps with [3,5],[6,7],[8,10].
+
+
